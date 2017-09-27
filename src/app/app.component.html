@@ -9,7 +9,7 @@
   <ul style="padding-left: 0px">
     <li *ngFor="let link of links">
       <a class="btn btn-social-icon btn-{{link.network}}" href="{{link.url}}" target="_blank" rel="noopener">
-        <span class="fa fa-{{link.network}}"></span>
+        <i class="fa fa-{{link.network}}" aria-hidden="true"></i>
       </a>
     </li>
   </ul>
