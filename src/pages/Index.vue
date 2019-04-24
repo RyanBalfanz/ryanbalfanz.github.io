@@ -1,29 +1,46 @@
 <template>
   <Layout>
-    
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-    
-    <h1>Hello, world!</h1>
-   
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <h1>I'm Ryan Balfanz</h1>
+
+    <p>San Francisco, CA</p>
 
     <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.facebook.com/ryanbalfanz" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://twitter.com/ryanbalfanz" target="_blank" rel="noopener">Twitter</a>
+      <a href="https://www.linkedin.com/in/ryanbalfanz" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/RyanBalfanz" target="_blank" rel="noopener">GitHub</a>
     </p>
-
   </Layout>
 </template>
 
 <script>
+const Trianglify = require('trianglify');
+
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: "Ryan Balfanz"
+  },
+  mounted: function() {
+    this.onMounted()
+  },
+  methods: {
+    onMounted: function() {
+      this.set_background_image()
+    },
+    set_background_image: function() {
+      var config = {
+        height: window.innerHeight,
+        width: window.innerWidth,
+        cell_size: 50,
+        variance: 1.0,
+        seed: null,
+        x_colors: "RdYlBu"
+      };
+      var pattern = Trianglify(config);
+      document.body.style.backgroundImage = "url('" + pattern.png() + "')";
+    }
   }
-}
+};
 </script>
 
 <style>
