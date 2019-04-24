@@ -14,4 +14,10 @@ export default function (Vue, { router, head, isClient }) {
     'integrity': 'sha256-mn6m44JLn4jLWLnjLMGPhfunOfbo6/VE3wv3nH51OzI=',
     'crossorigin': 'anonymous',
   })
+
+  // https://developers.google.com/web/tools/lighthouse/audits/description
+  head.meta.push({
+    name: 'description',
+    content: 'The personal website of Ryan Balfanz'
+  })
 }
