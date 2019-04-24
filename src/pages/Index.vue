@@ -14,8 +14,6 @@
 </template>
 
 <script>
-const Trianglify = require('trianglify');
-
 export default {
   metaInfo: {
     title: "Ryan Balfanz"
