@@ -20,4 +20,10 @@ export default function (Vue, { router, head, isClient }) {
     name: 'description',
     content: 'The personal website of Ryan Balfanz'
   })
+
+  // https://developers.google.com/web/tools/lighthouse/audits/address-bar
+  head.meta.push({
+    name: 'theme-color',
+    content: '#317EFB'
+  })
 }
