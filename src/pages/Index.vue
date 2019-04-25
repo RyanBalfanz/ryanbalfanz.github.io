@@ -5,10 +5,13 @@
     <p>San Francisco, CA</p>
 
     <p class="home-links">
-      <a href="https://www.facebook.com/ryanbalfanz" target="_blank" rel="noopener">Facebook</a>
-      <a href="https://twitter.com/ryanbalfanz" target="_blank" rel="noopener">Twitter</a>
-      <a href="https://www.linkedin.com/in/ryanbalfanz" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/RyanBalfanz" target="_blank" rel="noopener">GitHub</a>
+      <a
+        v-for="link in social_links"
+        v-bind:key="link.name"
+        v-bind:href="link.url"
+        target="_blank"
+        rel="noopener"
+      >{{ link.name }}</a>
     </p>
   </Layout>
 </template>
@@ -20,6 +23,32 @@ export default {
   },
   mounted: function() {
     this.onMounted()
+  },
+  data: function() {
+    return {
+      social_links: [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/ryanbalfanz",
+          "network": "facebook"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/ryanbalfanz",
+          "network": "twitter"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ryanbalfanz",
+          "network": "linkedin"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/RyanBalfanz",
+          "network": "github"
+        }
+      ]
+    }
   },
   methods: {
     onMounted: function() {
