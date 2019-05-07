@@ -8,5 +8,13 @@ module.exports = {
   siteName: 'RyanBalfanz.com',
   plugins: [],
   siteUrl: "https://ryanbalfanz.com/",
-  siteDescription: "The personal website of Ryan Balfanz."
+  siteDescription: "The personal website of Ryan Balfanz.",
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-59779912-1'
+      }
+    }
+  ]
 }
