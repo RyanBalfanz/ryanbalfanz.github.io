@@ -46,6 +46,11 @@ export default {
           "name": "GitHub",
           "url": "https://github.com/RyanBalfanz",
           "network": "github"
+        },
+        {
+          "name": "IMDb",
+          "url": "https://www.imdb.com/name/nm10104161/",
+          "network": "imdb"
         }
       ]
     }
