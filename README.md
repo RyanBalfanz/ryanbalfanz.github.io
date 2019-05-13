@@ -1,6 +1,7 @@
 # Default starter for Gridsome
 
 [![Build Status](https://travis-ci.org/RyanBalfanz/ryanbalfanz.github.io.svg?branch=develop)](https://travis-ci.org/RyanBalfanz/ryanbalfanz.github.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/44fced13-ef57-4c80-81e6-059c8c1e5d19/deploy-status)](https://app.netlify.com/sites/ryanbalfanz-github-io/deploys)
 
 ### 1. Install Gridsome CLI tool if you don't have
 
