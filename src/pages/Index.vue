@@ -6,6 +6,7 @@
 
     <p class="home-links">
       <a
+        v-for="link in enabledSocialLinks"
         v-bind:key="link.name"
         v-bind:href="link.url"
         target="_blank"
@@ -27,7 +28,12 @@ export default {
   },
   data: function() {
     return {
-      social_links: socialLinks
+      socialLinks: socialLinks
+    }
+  },
+  computed: {
+    enabledSocialLinks() {
+      return this.socialLinks.filter(link => !link.disabled)
     }
   },
   methods: {
