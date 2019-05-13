@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "gridsome": "^0.5.0"
+    "gridsome": "^0.6.0"
   }
 }
