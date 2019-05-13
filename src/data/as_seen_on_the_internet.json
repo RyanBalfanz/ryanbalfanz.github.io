@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Developer",
+    "url": "https://balfanz.dev",
+    "type": "website"
+  },
+  {
+    "name": "Mentor",
+    "url": "https://www.coursereport.com/blog/mentor-spotlight-ryan-balfanz-of-bloc",
+    "type": "article"
+  },
+  {
+    "name": "Founder",
+    "url": "https://www.crunchbase.com/person/ryan-balfanz",
+    "type": "website",
+    "network": "crunchbase",
+    "disabled": true
+  }
+]
