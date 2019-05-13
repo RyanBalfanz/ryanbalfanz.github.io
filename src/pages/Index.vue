@@ -6,7 +6,6 @@
 
     <p class="home-links">
       <a
-        v-for="link in social_links"
         v-bind:key="link.name"
         v-bind:href="link.url"
         target="_blank"
@@ -17,6 +16,8 @@
 </template>
 
 <script>
+import socialLinks from "../data/social_media_links.json"
+
 export default {
   metaInfo: {
     title: "Ryan Balfanz"
@@ -26,28 +27,7 @@ export default {
   },
   data: function() {
     return {
-      social_links: [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/ryanbalfanz",
-          "network": "facebook"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/ryanbalfanz",
-          "network": "twitter"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/ryanbalfanz",
-          "network": "linkedin"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/RyanBalfanz",
-          "network": "github"
-        }
-      ]
+      social_links: socialLinks
     }
   },
   methods: {
