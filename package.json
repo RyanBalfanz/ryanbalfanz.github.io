@@ -10,5 +10,8 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "gridsome": "^0.6.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
