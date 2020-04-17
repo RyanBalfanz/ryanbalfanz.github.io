@@ -21,3 +21,4 @@ export default function (Vue, { router, head, isClient }) {
     content: '#317EFB'
   })
 }
+
