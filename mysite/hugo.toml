@@ -1,0 +1,49 @@
+baseURL = 'https://ryanbalfanz.com/'
+languageCode = 'en-us'
+title = 'Ryan Balfanz'
+theme = 'custom'
+
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
+
+# [[menus.main]]
+# name = 'Posts'
+# pageRef = '/posts'
+# weight = 20
+
+# [[menus.main]]
+# name = 'Tags'
+# pageRef = '/tags'
+# weight = 30
+
+[[menus.main]]
+name = 'GitHub'
+url = 'https://github.com/RyanBalfanz'
+weight = 40
+
+[[menus.main]]
+name = 'GitHub'
+url = 'https://github.com/RyanBalfanz'
+weight = 40
+
+[[menus.main]]
+name = 'LinkedIn'
+url = 'https://www.linkedin.com/in/ryanbalfanz/'
+weight = 50
+
+[[menus.main]]
+name = 'Twitter'
+url = 'https://twitter.com/RyanBalfanz'
+weight = 60
+
+[[menus.main]]
+name = 'IMDb'
+url = 'https://www.imdb.com/name/nm10104161/'
+weight = 70
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
