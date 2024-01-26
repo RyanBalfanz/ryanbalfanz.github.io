@@ -3,3 +3,58 @@ languageCode = 'en-us'
 title = 'Ryan Balfanz'
 theme = 'custom'
 enableRobotsTXT = true
+
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
+
+# [[menus.main]]
+# name = 'Posts'
+# pageRef = '/posts'
+# weight = 20
+
+# [[menus.main]]
+# name = 'Tags'
+# pageRef = '/tags'
+# weight = 30
+
+# [[menus.main]]
+# name = 'Facebook'
+# url = 'https://www.facebook.com/ryanbalfanz'
+# weight = 30
+
+# [[menus.main]]
+# name = 'Twitter'
+# url = 'https://twitter.com/ryanbalfanz'
+# weight = 30
+
+# [[menus.main]]
+# name = 'Instagram'
+# url = 'https://www.instagram.com/ryanbalfanz/'
+# weight = 30
+
+# [[menus.main]]
+# name = 'balfanz.dev'
+# url = 'https://balfanz.dev/'
+# weight = 30
+
+[[menus.main]]
+name = 'GitHub'
+url = 'https://github.com/RyanBalfanz'
+weight = 40
+
+[[menus.main]]
+name = 'LinkedIn'
+url = 'https://www.linkedin.com/in/ryanbalfanz'
+weight = 50
+
+[[menus.main]]
+name = 'IMDb'
+url = 'https://www.imdb.com/name/nm10104161/'
+weight = 60
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
