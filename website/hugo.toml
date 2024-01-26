@@ -5,10 +5,10 @@ theme = 'custom'
 enableRobotsTXT = true
 disableKinds = ['taxonomy']
 
-# [[menus.main]]
-# name = 'Home'
-# pageRef = '/'
-# weight = 10
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
 
 # [[menus.main]]
 # name = 'Posts'
