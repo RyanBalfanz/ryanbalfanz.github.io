@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Ryan Balfanz'
 theme = 'custom'
 enableRobotsTXT = true
+disableKinds = ['taxonomy']
 
 # [[menus.main]]
 # name = 'Home'
