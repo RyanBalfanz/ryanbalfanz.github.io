@@ -2,5 +2,9 @@
 /* TEAM */
 Your title: Ryan Balfanz
 Site: https://ryanbalfanz.com/
-Twitter: @RyanBalfanz
+GitHub: [@RyanBalfanz](https://github.com/RyanBalfanz)
+LinkedIn: [@RyanBalfanz](https://www.linkedin.com/in/ryanbalfanz/)
+Twitter: [@RyanBalfanz](https://twitter.com/ryanbalfanz)
+Reddit: [u/rbalfanz](https://www.reddit.com/user/rbalfanz/)
+Keybase: [@balfanz](https://keybase.io/balfanz)
 Location: San Francisco, CA, USA
